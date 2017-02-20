@@ -60,7 +60,7 @@ cobbler system add --name=linux-node2.lichengbing.cn --mac=00:0C:29:8E:A9:4F --p
 * 设置DNS（172.16.2.150）
 * 安装Zabiix Agent、Zabbix Server 172.16.2.150
 * 安装Saltstack Minion：Saltstack Server：172.16.2.150
-* 创建sudo用户oldboy，禁止root登陆
+* 创建sudo用户sdg，禁止root登陆
 * 修改默认语言设置  
 <pre>
 echo "LANG=zh_CN.UTF-8">/etc/sysconfig/i18n
